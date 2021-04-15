@@ -5,4 +5,6 @@ O projeto proposto era desenvolver a tela de login do Instagram, mas personalize
 
 Utilizei assuntos apresentados na aula, e pesquisei outros na internet, como o *houver*, com o intuito de deixar o site menos estático.
 
+Acredito que a maior dificuldade encontrada neste projeto, foi colocar todos os elementos em forma de responsividade para todos os tamanhos de tela.
+
 Tecnologias utilizadas: HTML e CSS
