@@ -3,17 +3,20 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: montserrat, sans-serif;
     font-size: 14px;
 }
 
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: #000000;
+    background-color: #faf6f6ef;
     margin: 0;
     padding: 0;
     justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .header_page {
@@ -22,27 +25,28 @@ body {
     display: flex;
     position: relative;
     justify-content: space-between;
-    background-color: goldenrod;
-    border-bottom: 1px solid rgba(224, 202, 5, 0.938);
+    background-color: #1d1616;
+    border-bottom: 1px solid rgba(155, 155, 154, 0.938);
 }
 
 .header_page p {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family:sans-serif;
-    margin: 10px;
+    color: white;
+    margin: 1rem;
+    text-transform: uppercase;
 }
 
 .logo_img_header {
     width: 45px;
     height: 45px;
-    margin: 0.5rem;
+    margin: 0.5rem 1rem;
 }
 
 .logo_img_header img {
     display: flex;
     width: 100%;
     height: 100%;
-    margin: 3px;
 }
 
 .start_initial {
@@ -50,7 +54,7 @@ body {
     align-items: center;
     justify-content: start;
     width: 60%;
-    height: 100vh;
+    height: 90vh;
 }
 
 .group_phone {
@@ -88,8 +92,20 @@ body {
     min-height: 19rem;
 }
 
+.logo_nome_botafogo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo_nome_botafogo p {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
 .logo_botafogo {
     height: 3rem;
+    margin: 0 1rem;
 }
 
 .profile_photo {
@@ -101,27 +117,40 @@ body {
 }
 
 .profile_photo img {
-    height: 7rem;
+    height: 7.5rem;
 }
 
 .login {
-    background-color: goldenrod;
+    background-color: #1d1616;
     color: #ffffff;
     padding: 8px;
     border-radius: 4px;
+    margin: 0.5rem;
+}
+
+.login:hover {
+    background-color: gray;
 }
 
 .logout {
-    color: goldenrod;
-    margin-top: 1rem;
+    color: #1d1616;
+    margin: 0.5rem;
+}
+
+.logout:hover {
+    color: black;
 }
 
 .not_account {
-    color: goldenrod;
+    color: #1d1616;
 }
 
 .link_blue {
     color: #0095f6;
+}
+
+.link_blue:hover {
+    color:royalblue;
 }
 
 .download {
@@ -132,6 +161,7 @@ body {
     width: 100%;
     padding: 1.3rem 0;
     background-color: #ffffff;
+    border: 1px solid lightgray;
 }
 
 .apps_download {
@@ -145,6 +175,7 @@ body {
 .app_download {
     height: 3rem;
     width: 10rem;
+    margin-top: 10px;
     background-size: cover;
 }
 
